@@ -137,8 +137,8 @@ Katkı verme adımları `CONTRIBUTING.md`, doğrulanmış test ve entegrasyon du
 `PROJECT_STATUS.md`, değişiklikler ise `CHANGELOG.md` içindedir.
 
 Ücretsiz demo ve mevcut 8 test 5 Ekim 2026'da yeniden çalıştırıldı.
-Canlı sağlayıcı entegrasyonu hâlâ denenmeyi bekliyor. Kamuya açık depo ve
-kullanıcı topluluğu henüz oluşmadı.
+Canlı sağlayıcı entegrasyonu hâlâ denenmeyi bekliyor. Proje 5 Ekim 2026'da
+kamuya açık GitHub deposunda yayımlandı. Dış kullanıcı ve topluluk ölçümleri henüz yok.
 
 ### English summary
 
