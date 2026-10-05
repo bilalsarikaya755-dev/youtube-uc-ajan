@@ -1,0 +1,4 @@
+# CrewAI dokümanlarında doğrulanan 1.15.23 sürümü.
+crewai[openai,anthropic,google-genai]==1.15.23
+python-dotenv>=1.0,<2
+pydantic>=2.11,<3
