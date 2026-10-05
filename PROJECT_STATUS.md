@@ -22,12 +22,12 @@ demo dosyası üretimini kapsıyor.
 
 - OpenAI, Anthropic ve Gemini ile canlı üretim akışı.
 - Bağımsız bir kullanıcının temiz Windows kurulumunda çalıştırması.
-- Kamuya açık GitHub deposu, sürümler ve dış katkılar.
+- GitHub release sürümleri ve dış katkılar.
 - Dış kullanıcı sayısı, indirmeler ve bakım geçmişi.
 
-Bu alanlar için ölçüm veya başarı iddiası yoktur. GitHub'da yayımlanmadan ve
-düzenli bakım başlamadan proje için kurulmuş bir topluluk veya geniş kullanım
-iddia edilmemelidir.
+Bu alanlar için ölçüm veya başarı iddiası yoktur. Kamuya açık depo 5 Ekim 2026'da yayımlandı: https://github.com/bilalsarikaya755-dev/youtube-uc-ajan
+Düzenli bakım ve gerçek kullanım kayıtları oluşmadan geniş kullanım veya
+kurulmuş topluluk iddia edilmemelidir.
 
 ## Lisans
 

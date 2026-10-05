@@ -8,6 +8,6 @@
 - Anahtarsız demo ve mevcut 8 test yeniden çalıştırıldı; tüm testler geçti.
 - Başvuru için ihtiyaç duyulan gerçek kullanım ve bakım kayıtları belirlendi.
 
-Bu sürüm GitHub'da yayımlanmış bir release değildir; yayımlanmak üzere
-hazırlanmış yerel başlangıç paketidir. Canlı API akışı henüz doğrulanmadı.
+Kaynak kod 5 Ekim 2026'da kamuya açık GitHub deposunda yayımlandı.
+Henüz ayrı bir GitHub release oluşturulmadı. Canlı API akışı henüz doğrulanmadı.
 
