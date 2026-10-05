@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "mode": "prepared_example",
+    "verified_on": "2026-10-04",
+    "topic": "İnternette konuştuğun herkes insan mı?",
+    "note": "Sohbet içindeki araştırma, senaryo ve yönetmen ajanlarıyla hazırlandı. Sağlayıcı API çağrısı değildir."
+  },
+  "research": {
+    "topic": "İnternette Konuştuğun Herkes İnsan mı?",
+    "selection_reason": "Tanıdık bir sese güvenme sorusu, internet kullanan geniş bir kitleye doğrudan dokunuyor. Açılıştaki varsayımsal para isteği, bot verisindeki sürpriz ayrım ve pratik doğrulama adımı aynı hikâyede birleşiyor. Bu, ilgi potansiyeline ilişkin editoryal değerlendirmedir.",
+    "demand_status": "Türkiye veya bu kanal için doğrulanmış güncel arama hacmi, rakip karşılaştırması veya izlenme tahmini elde edilmedi. Konunun en çok arandığı veya en çok izleneceği ileri sürülmüyor.",
+    "sources": [
+      {
+        "id": "K01",
+        "title": "Thales: AI-driven Bot Attacks Surged 12.5x According to Thales Bad Bot Report",
+        "url": "https://cpl.thalesgroup.com/about-us/newsroom/ai-driven-bot-attacks-surged-according-to-bad-bot-report",
+        "publication_date": "2026-04-29",
+        "data_period": "2025 tam yıl",
+        "scope": "Thales Threat Research ve Security Analyst Services ekiplerinin dünya genelinde gözlemlediği web/bot etkinliği. Kamuya açık basın açıklaması tüm internetin temsil niteliğini veya toplam gözlem sayısını açıklamıyor."
+      },
+      {
+        "id": "K02",
+        "title": "Meta: Cracking Down on Spammy Content on Facebook",
+        "url": "https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/",
+        "publication_date": "2025-04-24",
+        "data_period": "2024",
+        "scope": "Facebook'ta otomatik takip istismarına karıştığı için kaldırılan sahte sayfalar. Şirketin kendi moderasyon açıklaması."
+      },
+      {
+        "id": "K03",
+        "title": "FTC: Scammers use AI to enhance their family emergency schemes",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+        "publication_date": "2023-03-20",
+        "data_period": "Dönemsel istatistik değil; tüketici uyarısı",
+        "scope": "Aile acil durum dolandırıcılıklarında ses klonlama riski ve bilinen numaradan doğrulama önerisi. Kaynak makalesi kullanıldı; sayfa altındaki okuyucu yorumları kanıt olarak alınmadı."
+      },
+      {
+        "id": "K04",
+        "title": "Muzumdar ve diğerleri: The Dead Internet Theory: A Survey on Artificial Interactions and the Future of Social Media",
+        "url": "https://arxiv.org/abs/2502.00007",
+        "publication_date": "2025-01-06 (arXiv gönderimi)",
+        "data_period": "Dönemsel nüfus veya trafik ölçümü değil",
+        "scope": "Ölü internet teorisinin iddialarını tanımlayan araştırma yazısı. Bu pakette yalnız kavram tanımı için kullanıldı; teoriye doğrulama kanıtı olarak sunulmuyor."
+      }
+    ],
+    "facts": [
+      {
+        "id": "F01",
+        "claim": "Thales'in 2026 açıklaması, ekiplerinin 2025 boyunca gözlemlediği web trafiğinde botların payının yüzde 53'ün üzerinde olduğunu bildiriyor.",
+        "source_ids": [
+          "K01"
+        ],
+        "limitation": "Trafik oranı; insan, kullanıcı, hesap, yorum veya içerik oranı değil. Gözlemlenen veri bütün internetin nüfus sayımı olarak sunulamaz."
+      },
+      {
+        "id": "F02",
+        "claim": "Thales meşru otomasyon ve zararlı otomasyon ayrımını yapıyor; botların tümü kötü amaçlı olarak sınıflanmıyor.",
+        "source_ids": [
+          "K01"
+        ],
+        "limitation": "Toplam bot payının tamamını kötü amaçlı etkileşim veya dolandırıcı insan olarak yorumlama."
+      },
+      {
+        "id": "F03",
+        "claim": "Meta, 2024'te Facebook'ta otomatik takip istismarına karışan 100 milyondan fazla sahte sayfanın kaldırıldığını duyuruyor.",
+        "source_ids": [
+          "K02"
+        ],
+        "limitation": "Kaldırılan sayfa sayısı. Aktif kullanıcı oranı veya tamamı AI tarafından üretilmiş hesap sayısı değil."
+      },
+      {
+        "id": "F04",
+        "claim": "FTC, kısa bir çevrimiçi ses örneği ve ses klonlama yazılımıyla aile üyesinin sesinin taklit edilebileceği konusunda uyarıyor.",
+        "source_ids": [
+          "K03"
+        ],
+        "limitation": "Yaygınlık veya başarı oranı ölçümü değil. Makale kesin saniye süresi belirtmiyor."
+      },
+      {
+        "id": "F05",
+        "claim": "FTC, aradığını iddia eden aile üyesini gerçekten bilinen numarasından arayarak hikâyeyi doğrulamayı öneriyor.",
+        "source_ids": [
+          "K03"
+        ],
+        "limitation": "Öneri; her saldırıyı tespit edeceğine dair garanti değil. Bilinmeyen göndericinin verdiği numarayla doğrulama yapılmamalı."
+      },
+      {
+        "id": "F06",
+        "claim": "FTC'nin aile acil durum uyarısı, para isteyen sesli çağrıdaki kişinin kimliğini ve hikâyesini bağımsız olarak doğrulamayı öğütlüyor.",
+        "source_ids": [
+          "K03"
+        ],
+        "limitation": "Bu paketteki para isteği sahnesi varsayımsal canlandırma; gerçek bir kurban olayı veya belgelenmiş ses kaydı değil."
+      },
+      {
+        "id": "F07",
+        "claim": "Ölü internet teorisi, çevrimiçi etkinlik ve içeriklerde insan dışı otomasyonun baskın hale geldiği iddiasıyla tanımlanıyor.",
+        "source_ids": [
+          "K04"
+        ],
+        "limitation": "Bir iddianın tanımıdır; çoğunluk iddiasının gerçekleştiğini kanıtlayan ölçüm değildir."
+      }
+    ],
+    "unknowns": [
+      "Türkiye ve kanal özelinde güncel arama sıralaması/arama hacmi bilinmiyor.",
+      "Trafik oranından yorumların, sosyal hesapların veya kullanıcıların bot oranı çıkarılamaz.",
+      "Ölü internet teorisinin bütünsel iddiasını bu kaynaklar doğrulamıyor; senaryoda sınanan bir iddia olarak anılıyor.",
+      "Planlı zamanlar gerçek seslendirme kaydına göre son kurguda ayarlanmalı."
+    ]
+  },
+  "script": {
+    "title": "İnternette Konuştuğun Herkes İnsan mı?",
+    "thumbnail_text": "KİM GERÇEK?",
+    "main_duration_seconds": 240,
+    "sections": [
+      {
+        "id": "M01",
+        "duration_seconds": 16,
+        "title": "Tanıdık ses",
+        "narration": "Telefondaki sesi tanıyorsun. Peki ya konuşan, ailenden biri değilse? Bir sahne düşün: Telefonuna tanıdık bir ses kaydı geliyor. Acil para istiyor. Ses, aileden birinin sesi gibi. Şimdi ne yaparsın?",
+        "fact_ids": []
+      },
+      {
+        "id": "M02",
+        "duration_seconds": 23,
+        "title": "Teorinin iddiası",
+        "narration": "İnternette konuştuğun herkes insan mı? Ölü internet teorisi, gördüğümüz içeriklerin ve konuşmaların büyük bölümünü otomasyonun ürettiğini öne sürüyor. Ürkütücü bir fikir. Ama ürkütücü olması, doğru olduğu anlamına gelmez. Senin ekranındaki bir yorumdan başlayıp bütün internet hakkında hüküm verebilir miyiz? Gel, bu iddiayı gerçekten ölçülen şeylerle sınayalım.",
+        "fact_ids": [
+          "F07"
+        ]
+      },
+      {
+        "id": "M03",
+        "duration_seconds": 26,
+        "title": "Yüzde 53 neyi ölçüyor?",
+        "narration": "Thales'in 29 Nisan 2026 tarihli açıklamasına göre, ekiplerinin 2025 boyunca gözlemlediği web trafiğinin yüzde 53'ten fazlası botlardan geldi. Büyük bir sayı. Fakat burada ölçülen şey trafik. İnsanların sayısı değil. Bir siteye baktığında, arka planda gönderilen otomatik istekler de bu trafiğin parçası olabilir. Rakamın yanındaki bu küçük ayrım, sonucu tamamen değiştiriyor.",
+        "fact_ids": [
+          "F01"
+        ]
+      },
+      {
+        "id": "M04",
+        "duration_seconds": 25,
+        "title": "Trafik ile insan",
+        "narration": "Şöyle düşün: Hayali bir sitede bir kişi tek sayfaya bakıyor. Bir bot ise arka arkaya birçok otomatik istek gönderiyor. Trafiği sayarsan bot ağır basabilir; insanları saymış olmazsın. Dolayısıyla bu ölçüm, yorumların yüzde elli üçünün sahte olduğunu söylemiyor. Senin konuştuğun hesapların çoğunun bot olduğunu da tek başına göstermiyor.",
+        "fact_ids": [
+          "F01"
+        ]
+      },
+      {
+        "id": "M05",
+        "duration_seconds": 28,
+        "title": "Her bot zararlı mı?",
+        "narration": "Üstelik bot demek, otomatik olarak kötü niyetli demek değil. Thales, meşru otomasyonla zararlı otomasyonu ayırıyor. Aynı toplamın içinde farklı amaçlarla çalışan sistemler var. Bir sayıyı yorumlamadan önce şu soruyu sor: Tam olarak ne sayılmış? Otomatik bir ziyaretle, seni kandırmak için yazılmış bir mesajı aynı şey gibi okursan, doğru bir veriden yanlış bir hikâye çıkarabilirsin.",
+        "fact_ids": [
+          "F02"
+        ]
+      },
+      {
+        "id": "M06",
+        "duration_seconds": 26,
+        "title": "100 milyon sahte sayfa",
+        "narration": "Peki sahte sosyal etkileşim yok mu? Meta'nın açıkladığı veri var: Facebook, 2024'te otomatik takip istismarına karışan 100 milyondan fazla sahte sayfayı kaldırdığını duyurdu. Bu ciddi bir ölçek. Ama yine birime bak: Sayfa. Kullanıcı değil. Bu veri, insanların ne kadarının sahte olduğunu veya kaldırılan sayfaların tamamının yapay zekâyla üretildiğini söylemiyor.",
+        "fact_ids": [
+          "F03"
+        ]
+      },
+      {
+        "id": "M07",
+        "duration_seconds": 24,
+        "title": "Ses neden yetmiyor?",
+        "narration": "Şimdi baştaki ses kaydına dön. Seni ikna eden ses gerçekten o kişiye mi ait? Amerika'nın tüketici koruma kurumu FTC, internetteki kısa bir ses örneğiyle bir aile üyesinin sesinin klonlanabileceği konusunda uyarıyor. Bunun için burada kesin bir saniye vermiyor. Mesele şu: Tanıdık bir ses duymak, karşındaki kişinin kimliğini tek başına doğrulamıyor.",
+        "fact_ids": [
+          "F04"
+        ]
+      },
+      {
+        "id": "M08",
+        "duration_seconds": 27,
+        "title": "Kontrolü geri al",
+        "narration": "FTC'nin önerisi basit: Aile üyenin gerçekten bildiğin numarasını kendin ara ve anlatılanı doğrula. Para göndermeden önce bu kontrolü yap. Açılıştaki hayali sahneyi burada durduralım. Henüz para göndermedin. Kişiye bildiğin numaradan ulaştın. Artık kararını yalnızca ses kaydına göre vermiyorsun. Sana gelen isteği, gerçekten bildiğin başka bir iletişim yoluyla kontrol etmiş oldun.",
+        "fact_ids": [
+          "F05",
+          "F06"
+        ]
+      },
+      {
+        "id": "M09",
+        "duration_seconds": 25,
+        "title": "İddiayı kaynağına götür",
+        "narration": "Başka içeriklerde de şu yöntemi öneriyoruz: İddianın ilk yayımlandığı kaynağı bul. Sonra bağımsız bir ikinci haberle karşılaştır. Aynı cümleyi kopyalayan iki hesap, iki ayrı doğrulama değildir. Kaynak yoksa, eminmiş gibi paylaşmadan önce dur. Bir profilin fotoğrafından, sesinden veya takipçi sayısından daha sağlam bir dayanak arıyorsun. Bu bir araştırma sonucu değil; uygulayabileceğin bir kontrol önerisi.",
+        "fact_ids": []
+      },
+      {
+        "id": "M10",
+        "duration_seconds": 20,
+        "title": "Teoriye verilen cevap",
+        "narration": "İnternette konuştuğun herkes insan mı? Bu veriler, her hesabın kimliğini cevaplamıyor; internetin öldüğünü de kanıtlamıyor. Bildiğimiz şu: Otomasyon ve taklit gerçek. Ama gerçekçi görünmek, gerçek olmakla aynı şey değil. Kararını etkileyen iddiayı kaynağından, para isteğini kişiden doğrula. Başta duyduğun sese şimdi aynı şekilde güvenir miydin?",
+        "fact_ids": [
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "F05"
+        ]
+      }
+    ],
+    "short_duration_seconds": 60,
+    "short_sections": [
+      {
+        "id": "S01",
+        "duration_seconds": 10,
+        "title": "Bu ses kimin?",
+        "narration": "Telefondaki sesi tanıyorsun. Peki ya konuşan, ailenden biri değilse? Bir sahne düşün: Tanıdık bir ses kaydı acil para istiyor.",
+        "fact_ids": []
+      },
+      {
+        "id": "S02",
+        "duration_seconds": 11,
+        "title": "Bot trafiği",
+        "narration": "Thales ekiplerinin gözlemlediği 2025 web trafiğinin yüzde 53'ten fazlası botlardan geldi. Ama bu, insanların veya hesapların yüzde 53'ü demek değil.",
+        "fact_ids": [
+          "F01"
+        ]
+      },
+      {
+        "id": "S03",
+        "duration_seconds": 9,
+        "title": "Yanlış çıkarım",
+        "narration": "Trafik başka, insan sayısı başka. Bu rakamdan, senin konuştuğun hesapların ne kadarının sahte olduğunu çıkaramazsın.",
+        "fact_ids": [
+          "F01"
+        ]
+      },
+      {
+        "id": "S04",
+        "duration_seconds": 10,
+        "title": "Ses klonlanabilir",
+        "narration": "FTC, internetteki kısa bir ses örneğiyle aile üyenin sesinin klonlanabileceği konusunda uyarıyor. Tanıdık bir ses, tek başına kimlik doğrulamıyor.",
+        "fact_ids": [
+          "F04"
+        ]
+      },
+      {
+        "id": "S05",
+        "duration_seconds": 10,
+        "title": "Bilinen numaradan ara",
+        "narration": "Para göndermeden önce, aile üyenin gerçekten bildiğin numarasını kendin ara. Sana gelen isteği doğrula. FTC'nin önerisi bu.",
+        "fact_ids": [
+          "F05",
+          "F06"
+        ]
+      },
+      {
+        "id": "S06",
+        "duration_seconds": 10,
+        "title": "Gerçekçilik ile gerçek",
+        "narration": "İnternetin öldüğü kanıtlanmış değil. Ama gerçekçi görünmek, gerçek olmak demek değil. Başta duyduğun sese şimdi aynı şekilde güvenir miydin?",
+        "fact_ids": [
+          "F01",
+          "F04",
+          "F05"
+        ]
+      }
+    ],
+    "description": "İnternette konuştuğun herkes insan mı? Bot trafiği, sahte sayfalar ve ses klonlama konusunda verilerin neyi ölçtüğüne bakıyoruz. Açılıştaki ses ve mesaj ekranı temsili canlandırmadır. Thales verisi 2025 web trafiğini, Meta verisi 2024'te kaldırılan Facebook sayfalarını anlatır. Bu oranlar kullanıcı veya yorum oranı değildir.\n\nKaynaklar:\nThales (2026, veri 2025): https://cpl.thalesgroup.com/about-us/newsroom/ai-driven-bot-attacks-surged-according-to-bad-bot-report\nMeta (2025, işlem 2024): https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/\nFTC (2023): https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes\nKavram tanımı: https://arxiv.org/abs/2502.00007",
+    "pinned_comment": "Sana gelen bir para isteğinde neye güvenirsin: sese mi, kişiyi bildiğin numaradan arayıp doğrulamaya mı? Açılıştaki sahne temsili. Kaynaklar açıklamada."
+  },
+  "direction": {
+    "main_shots": [
+      {
+        "section_id": "M01",
+        "visual": "0-3 sn: Telefon yakın planı; parmak sesli mesaj üzerinde bekler. 3-9 sn: Omuz üzerinden özgün mesaj ekranı ve ilerleyen ses dalgası. 9-16 sn: Parmak durur; son soruda görüntüyü sabitle. TEMSİLİ etiketi ilk kareden görünür.",
+        "on_screen": "BU SES KİMİN? / Acil para lazım. / Şimdi ne yaparsın?",
+        "sound": "Dış ses ilk karede başlar. Tek hafif bildirim. Son soruda müzik azalır.",
+        "asset_note": "Özgün mesaj grafiği ve oyuncunun eli. Gerçek ad, numara veya aile sesi kullanılmaz."
+      },
+      {
+        "section_id": "M02",
+        "visual": "16-24 sn: TEMSİLİ etiketli üç yorum kartını kaydır. 24-31 sn: Ölü internet teorisi başlığını İDDİA etiketiyle getir. 31-39 sn: Anlatıcı orta planına ve masadaki kaynak kartlarına geç.",
+        "on_screen": "Herkes insan mı? / Bir iddia / Ne ölçülmüş?",
+        "sound": "Düşük seviyeli sade müzik; ilk sorudan sonra kısa doğal durak.",
+        "asset_note": "Yorumlar ve profil simgeleri özgün kurgu. K04 kavram tanımı, teoriyi doğrulayan ölçüm değil."
+      },
+      {
+        "section_id": "M03",
+        "visual": "39-48 sn: >%53 veri kartı. 48-58 sn: Tarayıcıdan sunucuya giden istek okları. 58-65 sn: WEB TRAFİĞİ sözcüğünü büyüt ve hareketi durdur. İnsan veya hesap yüzdesi grafiği çizme.",
+        "on_screen": ">%53 bot trafiği. Alt satır: Thales 2026 | veri 2025 | gözlemlenen web trafiği.",
+        "sound": "Sayının gelişi için tek hafif tık; trafik ayrımında efektleri çek.",
+        "asset_note": "Özgün vektör kartı. K01. Kesin 53/47 dağılımı veya tüm internet nüfusu görünümü yok."
+      },
+      {
+        "section_id": "M04",
+        "visual": "65-74 sn: Bir kişinin hayali sayfa ziyareti. 74-83 sn: Otomasyondan sunucuya peş peşe istek okları. 83-90 sn: Şemayı dondur; istek sayısı ile insan sayısını ayrı kutulara koy.",
+        "on_screen": "HAYALİ ÖRNEK / Trafik ≠ insan sayısı. Alt satır: Thales 2026, veri 2025.",
+        "sound": "Seyrek hafif tıklar; son ayrımda yalnız anlaşılır dış ses öne çıkar.",
+        "asset_note": "Açıklama şeması; gerçek veri kümesi veya yorumların yüzdesi gibi sunulmaz."
+      },
+      {
+        "section_id": "M05",
+        "visual": "90-100 sn: Meşru ve zararlı otomasyon için iki ayrı kart. 100-110 sn: Anlatıcının kâğıda Ne sayılmış? yazdığı üst açı. 110-118 sn: Otomatik ziyaret ve yanıltıcı mesajı ayrı göster.",
+        "on_screen": "Meşru otomasyon / Zararlı otomasyon / Tam olarak ne sayılmış? Kaynak: Thales, 2026.",
+        "sound": "Hafif kalem sesi ve sakin dış ses. Alarm kullanma.",
+        "asset_note": "Özgün simgeler ve kâğıt çekimi. Mesaj görünümünde TEMSİLİ; kartlara oran ekleme."
+      },
+      {
+        "section_id": "M06",
+        "visual": "118-127 sn: Özgün SAYFA kartlarının üzerinde 100 milyon+ sayısı. 127-136 sn: Kartlar kaldırılma hareketiyle arşive geçer. 136-144 sn: SAYFA kelimesini sabitle ve anlatıcıya dön.",
+        "on_screen": "100 milyon+ sahte SAYFA kaldırıldı / Otomatik takip istismarı. Meta 2025 | işlem 2024 | Facebook.",
+        "sound": "Hafif kâğıt efekti; sayfa vurgusunda müzik azalır.",
+        "asset_note": "K02. Kaldırılan sayfa sayısı; kartlar sembolik. Kullanıcı sayısına veya AI üretim oranına dönüştürülmez."
+      },
+      {
+        "section_id": "M07",
+        "visual": "144-152 sn: Açılıştaki temsili ses kaydına dön. 152-161 sn: FTC 2023 kaynak kartını ve özgün ses dalgasını göster. 161-168 sn: Anlatıcı yakın planı; ses ile kimlik ayrımını vurgula.",
+        "on_screen": "TEMSİLİ / FTC 2023: ses klonlama uyarısı / Ses ≠ kimlik.",
+        "sound": "Özgün oyuncu kaydı dokusu çok düşük seviyede; ek konuşma cümlesi yok.",
+        "asset_note": "K03. Gerçek klonlama deneyi gibi sunulmaz; kesin saniye eşiği veya sayaç gösterilmez."
+      },
+      {
+        "section_id": "M08",
+        "visual": "168-177 sn: Temsili mesajdan kayıtlı kişilere geç. 177-187 sn: Kurgusal Yakınım kaydındaki arama düğmesine bas. 187-195 sn: Telefonu masaya koy; Ara ve İsteği doğrula adımlarını getir.",
+        "on_screen": "TEMSİLİ / Bildiğin numarayı kendin ara / Para göndermeden önce doğrula. Kaynak: FTC, 2023.",
+        "sound": "Hafif dokunma efekti; müzik sakinleşir. Uzun çalma sesi ekleme.",
+        "asset_note": "K03. Gerçek arama, numara veya para transferi yapılmaz. İletişim ekranı özgün kurgu."
+      },
+      {
+        "section_id": "M09",
+        "visual": "195-204 sn: Masada ilk kaynak ve bağımsız ikinci kaynak için iki kontrol kartı. 204-213 sn: Aynı cümlenin iki kopyasını tek köke bağla. 213-220 sn: Anlatıcı telefonu bırakır; üç kontrol adımı belirir.",
+        "on_screen": "İlk kaynağı bul / Karşılaştır / Sonra paylaş. Etiket: KONTROL ÖNERİSİ.",
+        "sound": "Hafif kâğıt sesi; kaynak yoksa cümlesinde kısa durak.",
+        "asset_note": "Editoryal yöntem. Boş kartlar gerçekten iki bağımsız doğrulama bulunmuş izlenimi vermemeli."
+      },
+      {
+        "section_id": "M10",
+        "visual": "220-226 sn: Anlatıcı kameraya sorar. 226-233 sn: İddianın kaynağı ve bilinen kişiye arama simgeleri. 233-240 sn: Açılıştaki bekleyen parmağa dön ve son soruyu sabit tut.",
+        "on_screen": "İddiayı kaynaktan, para isteğini kişiden doğrula / Şimdi güvenir miydin? Telefon ekranında TEMSİLİ.",
+        "sound": "Son soruda müzik yumuşakça çekilir. Kısa sessizlik mevcut bölüm süresinde kalır.",
+        "asset_note": "Açılış görüntüsünü başka kesim noktasıyla kullan; ek outro süresi koyma."
+      }
+    ],
+    "short_shots": [
+      {
+        "section_id": "S01",
+        "visual": "0-3 sn: Dikey telefon yakın planı. 3-7 sn: Ses dalgası ve acil para mesajı. 7-10 sn: Parmak durur. İlk kareden TEMSİLİ görünür.",
+        "on_screen": "BU SES KİMİN? / Ya o kişi değilse?",
+        "sound": "Dış ses hemen başlar; tek hafif bildirim.",
+        "asset_note": "Özgün ekran ve oyuncunun eli; gerçek aile sesi yok."
+      },
+      {
+        "section_id": "S02",
+        "visual": "10-14 sn: >%53 kartı. 14-18 sn: Tarayıcı-sunucu istek okları. 18-21 sn: Ölçülen birim olan trafik vurgusu.",
+        "on_screen": ">%53 BOT TRAFİĞİ. Thales 2026 | veri 2025 | gözlemlenen web trafiği.",
+        "sound": "Tek hafif tık; dış ses ön planda.",
+        "asset_note": "K01. Dikey özgün grafik; insan veya hesap yüzdesi çizilmez."
+      },
+      {
+        "section_id": "S03",
+        "visual": "21-25 sn: Hayali ziyaret ve otomatik istek şeması. 25-30 sn: Ayrı trafik ve insan sayısı kutularında eşitsizlik işareti.",
+        "on_screen": "HAYALİ ÖRNEK / Trafik ≠ insan sayısı.",
+        "sound": "Son ayrımda efektleri çek.",
+        "asset_note": "Açıklama grafiği; gerçek veri kümesi değil."
+      },
+      {
+        "section_id": "S04",
+        "visual": "30-34 sn: Temsili ses dalgası. 34-37 sn: FTC 2023 kartı. 37-40 sn: Anlatıcı yakın planı.",
+        "on_screen": "TEMSİLİ / FTC 2023 / Ses ≠ kimlik.",
+        "sound": "Dış ses net; düşük seviyeli özgün kayıt dokusu.",
+        "asset_note": "K03. Kesin saniye eşiği veya klonlama deneyi yok."
+      },
+      {
+        "section_id": "S05",
+        "visual": "40-44 sn: Mesajdan kişilere geç. 44-47 sn: Yakınım kaydındaki arama düğmesi. 47-50 sn: Ara ve doğrula adımları.",
+        "on_screen": "TEMSİLİ / Bildiğin numarayı kendin ara / Önce doğrula.",
+        "sound": "Hafif dokunma; sakin müzik.",
+        "asset_note": "K03. Özgün arayüz; gerçek arama veya transfer yok."
+      },
+      {
+        "section_id": "S06",
+        "visual": "50-54 sn: Anlatıcı yakın planı. 54-57 sn: Gerçekçi ile gerçek ayrımı. 57-60 sn: Açılıştaki bekleyen parmağa dön.",
+        "on_screen": "Gerçekçi ≠ gerçek / Şimdi güvenir miydin? TEMSİLİ korunur.",
+        "sound": "Son soruda müziği çek; ek kapanış ekleme.",
+        "asset_note": "Açılışın dikey çekimini kullan; metin uygulama düğmelerine taşmaz."
+      }
+    ],
+    "production_notes": [
+      "Önce doğal Türkçe dış sesi kaydet. Ana metin 474, Shorts metni 109 kelimedir. Bölüm süreleri toplam 240 ve 60 saniyedir; küçük duraklar bu sürelerin içindedir.",
+      "Kesin kesim ve altyazı zamanlarını ses kaydından sonra belirle. İlk karede konuşma başlasın; sorularda ve birim ayrımlarında kısa doğal durak bırak.",
+      "Ana video 1920 x 1080, Shorts 1080 x 1920 hazırlanır. Telefon ve anlatıcıyı iki yönde ayrıca çek; kamera, ışık ve odak sabit olsun.",
+      "Altyazıları en fazla iki kısa satır halinde yerleştir. Dikey videoda altyazı, kaynak satırı ve vurgu metni uygulama kontrollerinden uzak kalsın.",
+      "Mesaj, ses kaydı ve arama ekranları görünen her karede yüksek kontrastlı TEMSİLİ etiketi bulunsun. Oyuncunun özgün sesi kullanılır; aile üyesinin sesi taklit veya klon edilmez.",
+      "Thales kartında >%53 ve gözlemlenen web trafiği aynı karede görünür. Meta sayısı 2024'te kaldırılan sahte sayfalara bağlanır. FTC kartında kesin saniye eşiği yazılmaz.",
+      "Dış ses önde olsun; müzik ve efektleri konuşmanın yaklaşık 15-20 dB altında başlangıç düzeyine getirip dinleyerek ayarla. Son kontrolü kulaklık ve telefon hoparlörüyle yap.",
+      "Telefon çekimleri ve grafikler özgün üretilir. Paket video, ses kaydı veya hazır lisanslı stok içermez. Dış materyal eklenirse kullanım hakkını üretim kaydında belirt.",
+      "Kaynak bağlantıları açıklamada yer alır: K01 web trafiği, K02 kaldırılan sayfalar, K03 tüketici uyarısı, K04 kavram tanımı. M09'daki yöntem editoryal kontrol önerisidir."
+    ]
+  }
+}

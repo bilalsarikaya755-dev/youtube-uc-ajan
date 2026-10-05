@@ -1,0 +1,103 @@
+{
+  "topic": "İnternette Konuştuğun Herkes İnsan mı?",
+  "selection_reason": "Tanıdık bir sese güvenme sorusu, internet kullanan geniş bir kitleye doğrudan dokunuyor. Açılıştaki varsayımsal para isteği, bot verisindeki sürpriz ayrım ve pratik doğrulama adımı aynı hikâyede birleşiyor. Bu, ilgi potansiyeline ilişkin editoryal değerlendirmedir.",
+  "demand_status": "Türkiye veya bu kanal için doğrulanmış güncel arama hacmi, rakip karşılaştırması veya izlenme tahmini elde edilmedi. Konunun en çok arandığı veya en çok izleneceği ileri sürülmüyor.",
+  "sources": [
+    {
+      "id": "K01",
+      "title": "Thales: AI-driven Bot Attacks Surged 12.5x According to Thales Bad Bot Report",
+      "url": "https://cpl.thalesgroup.com/about-us/newsroom/ai-driven-bot-attacks-surged-according-to-bad-bot-report",
+      "publication_date": "2026-04-29",
+      "data_period": "2025 tam yıl",
+      "scope": "Thales Threat Research ve Security Analyst Services ekiplerinin dünya genelinde gözlemlediği web/bot etkinliği. Kamuya açık basın açıklaması tüm internetin temsil niteliğini veya toplam gözlem sayısını açıklamıyor."
+    },
+    {
+      "id": "K02",
+      "title": "Meta: Cracking Down on Spammy Content on Facebook",
+      "url": "https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/",
+      "publication_date": "2025-04-24",
+      "data_period": "2024",
+      "scope": "Facebook'ta otomatik takip istismarına karıştığı için kaldırılan sahte sayfalar. Şirketin kendi moderasyon açıklaması."
+    },
+    {
+      "id": "K03",
+      "title": "FTC: Scammers use AI to enhance their family emergency schemes",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+      "publication_date": "2023-03-20",
+      "data_period": "Dönemsel istatistik değil; tüketici uyarısı",
+      "scope": "Aile acil durum dolandırıcılıklarında ses klonlama riski ve bilinen numaradan doğrulama önerisi. Kaynak makalesi kullanıldı; sayfa altındaki okuyucu yorumları kanıt olarak alınmadı."
+    },
+    {
+      "id": "K04",
+      "title": "Muzumdar ve diğerleri: The Dead Internet Theory: A Survey on Artificial Interactions and the Future of Social Media",
+      "url": "https://arxiv.org/abs/2502.00007",
+      "publication_date": "2025-01-06 (arXiv gönderimi)",
+      "data_period": "Dönemsel nüfus veya trafik ölçümü değil",
+      "scope": "Ölü internet teorisinin iddialarını tanımlayan araştırma yazısı. Bu pakette yalnız kavram tanımı için kullanıldı; teoriye doğrulama kanıtı olarak sunulmuyor."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "claim": "Thales'in 2026 açıklaması, ekiplerinin 2025 boyunca gözlemlediği web trafiğinde botların payının yüzde 53'ün üzerinde olduğunu bildiriyor.",
+      "source_ids": [
+        "K01"
+      ],
+      "limitation": "Trafik oranı; insan, kullanıcı, hesap, yorum veya içerik oranı değil. Gözlemlenen veri bütün internetin nüfus sayımı olarak sunulamaz."
+    },
+    {
+      "id": "F02",
+      "claim": "Thales meşru otomasyon ve zararlı otomasyon ayrımını yapıyor; botların tümü kötü amaçlı olarak sınıflanmıyor.",
+      "source_ids": [
+        "K01"
+      ],
+      "limitation": "Toplam bot payının tamamını kötü amaçlı etkileşim veya dolandırıcı insan olarak yorumlama."
+    },
+    {
+      "id": "F03",
+      "claim": "Meta, 2024'te Facebook'ta otomatik takip istismarına karışan 100 milyondan fazla sahte sayfanın kaldırıldığını duyuruyor.",
+      "source_ids": [
+        "K02"
+      ],
+      "limitation": "Kaldırılan sayfa sayısı. Aktif kullanıcı oranı veya tamamı AI tarafından üretilmiş hesap sayısı değil."
+    },
+    {
+      "id": "F04",
+      "claim": "FTC, kısa bir çevrimiçi ses örneği ve ses klonlama yazılımıyla aile üyesinin sesinin taklit edilebileceği konusunda uyarıyor.",
+      "source_ids": [
+        "K03"
+      ],
+      "limitation": "Yaygınlık veya başarı oranı ölçümü değil. Makale kesin saniye süresi belirtmiyor."
+    },
+    {
+      "id": "F05",
+      "claim": "FTC, aradığını iddia eden aile üyesini gerçekten bilinen numarasından arayarak hikâyeyi doğrulamayı öneriyor.",
+      "source_ids": [
+        "K03"
+      ],
+      "limitation": "Öneri; her saldırıyı tespit edeceğine dair garanti değil. Bilinmeyen göndericinin verdiği numarayla doğrulama yapılmamalı."
+    },
+    {
+      "id": "F06",
+      "claim": "FTC'nin aile acil durum uyarısı, para isteyen sesli çağrıdaki kişinin kimliğini ve hikâyesini bağımsız olarak doğrulamayı öğütlüyor.",
+      "source_ids": [
+        "K03"
+      ],
+      "limitation": "Bu paketteki para isteği sahnesi varsayımsal canlandırma; gerçek bir kurban olayı veya belgelenmiş ses kaydı değil."
+    },
+    {
+      "id": "F07",
+      "claim": "Ölü internet teorisi, çevrimiçi etkinlik ve içeriklerde insan dışı otomasyonun baskın hale geldiği iddiasıyla tanımlanıyor.",
+      "source_ids": [
+        "K04"
+      ],
+      "limitation": "Bir iddianın tanımıdır; çoğunluk iddiasının gerçekleştiğini kanıtlayan ölçüm değildir."
+    }
+  ],
+  "unknowns": [
+    "Türkiye ve kanal özelinde güncel arama sıralaması/arama hacmi bilinmiyor.",
+    "Trafik oranından yorumların, sosyal hesapların veya kullanıcıların bot oranı çıkarılamaz.",
+    "Ölü internet teorisinin bütünsel iddiasını bu kaynaklar doğrulamıyor; senaryoda sınanan bir iddia olarak anılıyor.",
+    "Planlı zamanlar gerçek seslendirme kaydına göre son kurguda ayarlanmalı."
+  ]
+}

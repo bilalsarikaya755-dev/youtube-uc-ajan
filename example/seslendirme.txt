@@ -1,0 +1,19 @@
+Telefondaki sesi tanıyorsun. Peki ya konuşan, ailenden biri değilse? Bir sahne düşün: Telefonuna tanıdık bir ses kaydı geliyor. Acil para istiyor. Ses, aileden birinin sesi gibi. Şimdi ne yaparsın?
+
+İnternette konuştuğun herkes insan mı? Ölü internet teorisi, gördüğümüz içeriklerin ve konuşmaların büyük bölümünü otomasyonun ürettiğini öne sürüyor. Ürkütücü bir fikir. Ama ürkütücü olması, doğru olduğu anlamına gelmez. Senin ekranındaki bir yorumdan başlayıp bütün internet hakkında hüküm verebilir miyiz? Gel, bu iddiayı gerçekten ölçülen şeylerle sınayalım.
+
+Thales'in 29 Nisan 2026 tarihli açıklamasına göre, ekiplerinin 2025 boyunca gözlemlediği web trafiğinin yüzde 53'ten fazlası botlardan geldi. Büyük bir sayı. Fakat burada ölçülen şey trafik. İnsanların sayısı değil. Bir siteye baktığında, arka planda gönderilen otomatik istekler de bu trafiğin parçası olabilir. Rakamın yanındaki bu küçük ayrım, sonucu tamamen değiştiriyor.
+
+Şöyle düşün: Hayali bir sitede bir kişi tek sayfaya bakıyor. Bir bot ise arka arkaya birçok otomatik istek gönderiyor. Trafiği sayarsan bot ağır basabilir; insanları saymış olmazsın. Dolayısıyla bu ölçüm, yorumların yüzde elli üçünün sahte olduğunu söylemiyor. Senin konuştuğun hesapların çoğunun bot olduğunu da tek başına göstermiyor.
+
+Üstelik bot demek, otomatik olarak kötü niyetli demek değil. Thales, meşru otomasyonla zararlı otomasyonu ayırıyor. Aynı toplamın içinde farklı amaçlarla çalışan sistemler var. Bir sayıyı yorumlamadan önce şu soruyu sor: Tam olarak ne sayılmış? Otomatik bir ziyaretle, seni kandırmak için yazılmış bir mesajı aynı şey gibi okursan, doğru bir veriden yanlış bir hikâye çıkarabilirsin.
+
+Peki sahte sosyal etkileşim yok mu? Meta'nın açıkladığı veri var: Facebook, 2024'te otomatik takip istismarına karışan 100 milyondan fazla sahte sayfayı kaldırdığını duyurdu. Bu ciddi bir ölçek. Ama yine birime bak: Sayfa. Kullanıcı değil. Bu veri, insanların ne kadarının sahte olduğunu veya kaldırılan sayfaların tamamının yapay zekâyla üretildiğini söylemiyor.
+
+Şimdi baştaki ses kaydına dön. Seni ikna eden ses gerçekten o kişiye mi ait? Amerika'nın tüketici koruma kurumu FTC, internetteki kısa bir ses örneğiyle bir aile üyesinin sesinin klonlanabileceği konusunda uyarıyor. Bunun için burada kesin bir saniye vermiyor. Mesele şu: Tanıdık bir ses duymak, karşındaki kişinin kimliğini tek başına doğrulamıyor.
+
+FTC'nin önerisi basit: Aile üyenin gerçekten bildiğin numarasını kendin ara ve anlatılanı doğrula. Para göndermeden önce bu kontrolü yap. Açılıştaki hayali sahneyi burada durduralım. Henüz para göndermedin. Kişiye bildiğin numaradan ulaştın. Artık kararını yalnızca ses kaydına göre vermiyorsun. Sana gelen isteği, gerçekten bildiğin başka bir iletişim yoluyla kontrol etmiş oldun.
+
+Başka içeriklerde de şu yöntemi öneriyoruz: İddianın ilk yayımlandığı kaynağı bul. Sonra bağımsız bir ikinci haberle karşılaştır. Aynı cümleyi kopyalayan iki hesap, iki ayrı doğrulama değildir. Kaynak yoksa, eminmiş gibi paylaşmadan önce dur. Bir profilin fotoğrafından, sesinden veya takipçi sayısından daha sağlam bir dayanak arıyorsun. Bu bir araştırma sonucu değil; uygulayabileceğin bir kontrol önerisi.
+
+İnternette konuştuğun herkes insan mı? Bu veriler, her hesabın kimliğini cevaplamıyor; internetin öldüğünü de kanıtlamıyor. Bildiğimiz şu: Otomasyon ve taklit gerçek. Ama gerçekçi görünmek, gerçek olmakla aynı şey değil. Kararını etkileyen iddiayı kaynağından, para isteğini kişiden doğrula. Başta duyduğun sese şimdi aynı şekilde güvenir miydin?

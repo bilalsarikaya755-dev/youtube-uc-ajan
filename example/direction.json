@@ -1,0 +1,129 @@
+{
+  "main_shots": [
+    {
+      "section_id": "M01",
+      "visual": "0-3 sn: Telefon yakın planı; parmak sesli mesaj üzerinde bekler. 3-9 sn: Omuz üzerinden özgün mesaj ekranı ve ilerleyen ses dalgası. 9-16 sn: Parmak durur; son soruda görüntüyü sabitle. TEMSİLİ etiketi ilk kareden görünür.",
+      "on_screen": "BU SES KİMİN? / Acil para lazım. / Şimdi ne yaparsın?",
+      "sound": "Dış ses ilk karede başlar. Tek hafif bildirim. Son soruda müzik azalır.",
+      "asset_note": "Özgün mesaj grafiği ve oyuncunun eli. Gerçek ad, numara veya aile sesi kullanılmaz."
+    },
+    {
+      "section_id": "M02",
+      "visual": "16-24 sn: TEMSİLİ etiketli üç yorum kartını kaydır. 24-31 sn: Ölü internet teorisi başlığını İDDİA etiketiyle getir. 31-39 sn: Anlatıcı orta planına ve masadaki kaynak kartlarına geç.",
+      "on_screen": "Herkes insan mı? / Bir iddia / Ne ölçülmüş?",
+      "sound": "Düşük seviyeli sade müzik; ilk sorudan sonra kısa doğal durak.",
+      "asset_note": "Yorumlar ve profil simgeleri özgün kurgu. K04 kavram tanımı, teoriyi doğrulayan ölçüm değil."
+    },
+    {
+      "section_id": "M03",
+      "visual": "39-48 sn: >%53 veri kartı. 48-58 sn: Tarayıcıdan sunucuya giden istek okları. 58-65 sn: WEB TRAFİĞİ sözcüğünü büyüt ve hareketi durdur. İnsan veya hesap yüzdesi grafiği çizme.",
+      "on_screen": ">%53 bot trafiği. Alt satır: Thales 2026 | veri 2025 | gözlemlenen web trafiği.",
+      "sound": "Sayının gelişi için tek hafif tık; trafik ayrımında efektleri çek.",
+      "asset_note": "Özgün vektör kartı. K01. Kesin 53/47 dağılımı veya tüm internet nüfusu görünümü yok."
+    },
+    {
+      "section_id": "M04",
+      "visual": "65-74 sn: Bir kişinin hayali sayfa ziyareti. 74-83 sn: Otomasyondan sunucuya peş peşe istek okları. 83-90 sn: Şemayı dondur; istek sayısı ile insan sayısını ayrı kutulara koy.",
+      "on_screen": "HAYALİ ÖRNEK / Trafik ≠ insan sayısı. Alt satır: Thales 2026, veri 2025.",
+      "sound": "Seyrek hafif tıklar; son ayrımda yalnız anlaşılır dış ses öne çıkar.",
+      "asset_note": "Açıklama şeması; gerçek veri kümesi veya yorumların yüzdesi gibi sunulmaz."
+    },
+    {
+      "section_id": "M05",
+      "visual": "90-100 sn: Meşru ve zararlı otomasyon için iki ayrı kart. 100-110 sn: Anlatıcının kâğıda Ne sayılmış? yazdığı üst açı. 110-118 sn: Otomatik ziyaret ve yanıltıcı mesajı ayrı göster.",
+      "on_screen": "Meşru otomasyon / Zararlı otomasyon / Tam olarak ne sayılmış? Kaynak: Thales, 2026.",
+      "sound": "Hafif kalem sesi ve sakin dış ses. Alarm kullanma.",
+      "asset_note": "Özgün simgeler ve kâğıt çekimi. Mesaj görünümünde TEMSİLİ; kartlara oran ekleme."
+    },
+    {
+      "section_id": "M06",
+      "visual": "118-127 sn: Özgün SAYFA kartlarının üzerinde 100 milyon+ sayısı. 127-136 sn: Kartlar kaldırılma hareketiyle arşive geçer. 136-144 sn: SAYFA kelimesini sabitle ve anlatıcıya dön.",
+      "on_screen": "100 milyon+ sahte SAYFA kaldırıldı / Otomatik takip istismarı. Meta 2025 | işlem 2024 | Facebook.",
+      "sound": "Hafif kâğıt efekti; sayfa vurgusunda müzik azalır.",
+      "asset_note": "K02. Kaldırılan sayfa sayısı; kartlar sembolik. Kullanıcı sayısına veya AI üretim oranına dönüştürülmez."
+    },
+    {
+      "section_id": "M07",
+      "visual": "144-152 sn: Açılıştaki temsili ses kaydına dön. 152-161 sn: FTC 2023 kaynak kartını ve özgün ses dalgasını göster. 161-168 sn: Anlatıcı yakın planı; ses ile kimlik ayrımını vurgula.",
+      "on_screen": "TEMSİLİ / FTC 2023: ses klonlama uyarısı / Ses ≠ kimlik.",
+      "sound": "Özgün oyuncu kaydı dokusu çok düşük seviyede; ek konuşma cümlesi yok.",
+      "asset_note": "K03. Gerçek klonlama deneyi gibi sunulmaz; kesin saniye eşiği veya sayaç gösterilmez."
+    },
+    {
+      "section_id": "M08",
+      "visual": "168-177 sn: Temsili mesajdan kayıtlı kişilere geç. 177-187 sn: Kurgusal Yakınım kaydındaki arama düğmesine bas. 187-195 sn: Telefonu masaya koy; Ara ve İsteği doğrula adımlarını getir.",
+      "on_screen": "TEMSİLİ / Bildiğin numarayı kendin ara / Para göndermeden önce doğrula. Kaynak: FTC, 2023.",
+      "sound": "Hafif dokunma efekti; müzik sakinleşir. Uzun çalma sesi ekleme.",
+      "asset_note": "K03. Gerçek arama, numara veya para transferi yapılmaz. İletişim ekranı özgün kurgu."
+    },
+    {
+      "section_id": "M09",
+      "visual": "195-204 sn: Masada ilk kaynak ve bağımsız ikinci kaynak için iki kontrol kartı. 204-213 sn: Aynı cümlenin iki kopyasını tek köke bağla. 213-220 sn: Anlatıcı telefonu bırakır; üç kontrol adımı belirir.",
+      "on_screen": "İlk kaynağı bul / Karşılaştır / Sonra paylaş. Etiket: KONTROL ÖNERİSİ.",
+      "sound": "Hafif kâğıt sesi; kaynak yoksa cümlesinde kısa durak.",
+      "asset_note": "Editoryal yöntem. Boş kartlar gerçekten iki bağımsız doğrulama bulunmuş izlenimi vermemeli."
+    },
+    {
+      "section_id": "M10",
+      "visual": "220-226 sn: Anlatıcı kameraya sorar. 226-233 sn: İddianın kaynağı ve bilinen kişiye arama simgeleri. 233-240 sn: Açılıştaki bekleyen parmağa dön ve son soruyu sabit tut.",
+      "on_screen": "İddiayı kaynaktan, para isteğini kişiden doğrula / Şimdi güvenir miydin? Telefon ekranında TEMSİLİ.",
+      "sound": "Son soruda müzik yumuşakça çekilir. Kısa sessizlik mevcut bölüm süresinde kalır.",
+      "asset_note": "Açılış görüntüsünü başka kesim noktasıyla kullan; ek outro süresi koyma."
+    }
+  ],
+  "short_shots": [
+    {
+      "section_id": "S01",
+      "visual": "0-3 sn: Dikey telefon yakın planı. 3-7 sn: Ses dalgası ve acil para mesajı. 7-10 sn: Parmak durur. İlk kareden TEMSİLİ görünür.",
+      "on_screen": "BU SES KİMİN? / Ya o kişi değilse?",
+      "sound": "Dış ses hemen başlar; tek hafif bildirim.",
+      "asset_note": "Özgün ekran ve oyuncunun eli; gerçek aile sesi yok."
+    },
+    {
+      "section_id": "S02",
+      "visual": "10-14 sn: >%53 kartı. 14-18 sn: Tarayıcı-sunucu istek okları. 18-21 sn: Ölçülen birim olan trafik vurgusu.",
+      "on_screen": ">%53 BOT TRAFİĞİ. Thales 2026 | veri 2025 | gözlemlenen web trafiği.",
+      "sound": "Tek hafif tık; dış ses ön planda.",
+      "asset_note": "K01. Dikey özgün grafik; insan veya hesap yüzdesi çizilmez."
+    },
+    {
+      "section_id": "S03",
+      "visual": "21-25 sn: Hayali ziyaret ve otomatik istek şeması. 25-30 sn: Ayrı trafik ve insan sayısı kutularında eşitsizlik işareti.",
+      "on_screen": "HAYALİ ÖRNEK / Trafik ≠ insan sayısı.",
+      "sound": "Son ayrımda efektleri çek.",
+      "asset_note": "Açıklama grafiği; gerçek veri kümesi değil."
+    },
+    {
+      "section_id": "S04",
+      "visual": "30-34 sn: Temsili ses dalgası. 34-37 sn: FTC 2023 kartı. 37-40 sn: Anlatıcı yakın planı.",
+      "on_screen": "TEMSİLİ / FTC 2023 / Ses ≠ kimlik.",
+      "sound": "Dış ses net; düşük seviyeli özgün kayıt dokusu.",
+      "asset_note": "K03. Kesin saniye eşiği veya klonlama deneyi yok."
+    },
+    {
+      "section_id": "S05",
+      "visual": "40-44 sn: Mesajdan kişilere geç. 44-47 sn: Yakınım kaydındaki arama düğmesi. 47-50 sn: Ara ve doğrula adımları.",
+      "on_screen": "TEMSİLİ / Bildiğin numarayı kendin ara / Önce doğrula.",
+      "sound": "Hafif dokunma; sakin müzik.",
+      "asset_note": "K03. Özgün arayüz; gerçek arama veya transfer yok."
+    },
+    {
+      "section_id": "S06",
+      "visual": "50-54 sn: Anlatıcı yakın planı. 54-57 sn: Gerçekçi ile gerçek ayrımı. 57-60 sn: Açılıştaki bekleyen parmağa dön.",
+      "on_screen": "Gerçekçi ≠ gerçek / Şimdi güvenir miydin? TEMSİLİ korunur.",
+      "sound": "Son soruda müziği çek; ek kapanış ekleme.",
+      "asset_note": "Açılışın dikey çekimini kullan; metin uygulama düğmelerine taşmaz."
+    }
+  ],
+  "production_notes": [
+    "Önce doğal Türkçe dış sesi kaydet. Ana metin 474, Shorts metni 109 kelimedir. Bölüm süreleri toplam 240 ve 60 saniyedir; küçük duraklar bu sürelerin içindedir.",
+    "Kesin kesim ve altyazı zamanlarını ses kaydından sonra belirle. İlk karede konuşma başlasın; sorularda ve birim ayrımlarında kısa doğal durak bırak.",
+    "Ana video 1920 x 1080, Shorts 1080 x 1920 hazırlanır. Telefon ve anlatıcıyı iki yönde ayrıca çek; kamera, ışık ve odak sabit olsun.",
+    "Altyazıları en fazla iki kısa satır halinde yerleştir. Dikey videoda altyazı, kaynak satırı ve vurgu metni uygulama kontrollerinden uzak kalsın.",
+    "Mesaj, ses kaydı ve arama ekranları görünen her karede yüksek kontrastlı TEMSİLİ etiketi bulunsun. Oyuncunun özgün sesi kullanılır; aile üyesinin sesi taklit veya klon edilmez.",
+    "Thales kartında >%53 ve gözlemlenen web trafiği aynı karede görünür. Meta sayısı 2024'te kaldırılan sahte sayfalara bağlanır. FTC kartında kesin saniye eşiği yazılmaz.",
+    "Dış ses önde olsun; müzik ve efektleri konuşmanın yaklaşık 15-20 dB altında başlangıç düzeyine getirip dinleyerek ayarla. Son kontrolü kulaklık ve telefon hoparlörüyle yap.",
+    "Telefon çekimleri ve grafikler özgün üretilir. Paket video, ses kaydı veya hazır lisanslı stok içermez. Dış materyal eklenirse kullanım hakkını üretim kaydında belirt.",
+    "Kaynak bağlantıları açıklamada yer alır: K01 web trafiği, K02 kaldırılan sayfalar, K03 tüketici uyarısı, K04 kavram tanımı. M09'daki yöntem editoryal kontrol önerisidir."
+  ]
+}
